@@ -1,0 +1,68 @@
+/*
+ * Tailwind v4 theme extracted from https://voicestudio.sh/ on 2026-10-20T15:18:08.076Z
+ * dembrandt v0.39.2
+ *
+ * Observed values only. Every token below was measured on the page; no
+ * shades, states or scale steps were generated. Tailwind defaults still
+ * apply for anything not listed here, so extend rather than replace.
+ *
+ * This is a draft to check, not a source of truth. Each token carries the
+ * evidence behind it; read down the counts and drop what the page only did
+ * once before you build on this file.
+ */
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #f4f1ea;     /* semantic */
+  --color-background: #0b0b0b;  /* semantic */
+  --color-brand-1: #a9a49b;     /* palette, 32x, high confidence */
+  --color-brand-2: #ffe5b5;     /* palette, 10x, high confidence */
+
+  /* Typography */
+  --font-times-new-roman: "Times New Roman";  /* display */
+  --text-display: 64px;                       /* display */
+  --text-display--line-height: 1;
+  --text-heading-2: 52px;                     /* heading-2 */
+  --text-heading-2--line-height: 0.92;
+  --text-body: 19.2px;                        /* body */
+  --text-body--line-height: 1;
+  --text-link: 16px;                          /* link */
+  --text-caption: 12px;                       /* caption */
+  --text-caption--line-height: 1.5;
+  --text-mono: 10.56px;                       /* mono */
+  --text-mono--line-height: 1;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --tracking-display: -3.072px;               /* display */
+  --tracking-heading-2: -1.82px;              /* heading-2 */
+  --tracking-body: -0.864px;                  /* body */
+  --tracking-ui: -0.08px;                     /* ui */
+  --tracking-link: -0.8px;                    /* link */
+  --tracking-caption: 0.224px;                /* caption */
+  --tracking-mono: 0.6336px;                  /* mono */
+
+  /* Spacing */
+  --spacing-xs: 15.2px;  /* 179x */
+
+  /* Radius */
+  --radius-sm: 8px;      /* 41x */
+  --radius-md: 8.8px;    /* 12x */
+  --radius-lg: 9.6px;    /* 28x */
+  --radius-xl: 12.8px;   /* 46x */
+  --radius-full: 999px;  /* 18x */
+
+  /* Shadows */
+  --shadow-sm: rgba(255, 255, 255, 0.04) 0px 1px 0px 0px inset;
+  --shadow-md: rgba(240, 238, 231, 0.08) 0px 0px 0px 1px inset;
+  --shadow-lg: rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset;
+  --shadow-xl: rgba(240, 241, 236, 0.08) 0px 0px 0px 1px inset;
+
+  /* Breakpoints */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 767px;
+  --breakpoint-xl: 800px;
+}

@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-hePW80VL.js";import{t}from"./react-Cvdyeg_0.js";import{n}from"./AppLink-Cl-986og.js";var r=e(t(),1);function i(){return(0,r.useEffect)(()=>{let e=navigator;n(document,window.location,{doNotTrack:e.doNotTrack??window.doNotTrack??null,globalPrivacyControl:e.globalPrivacyControl},window)},[]),null}export{i as t};

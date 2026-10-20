@@ -1,0 +1,101 @@
+{
+  "id": "voicestudio.sh",
+  "siteName": "VoiceStudio (formerly OmniVoice Studio)",
+  "sourceUrl": "https://voicestudio.sh/",
+  "capturedAt": "2026-10-20T12:18:00-03:00",
+  "updatedAt": "2026-10-20T14:25:00-03:00",
+  "tools": [
+    "dembrandt@0.39.2",
+    "playwright-chromium",
+    "custom-js-css-bundle-decompiler"
+  ],
+  "aesthetic": {
+    "summary": "Dark Editorial & Technical Audio Luxury",
+    "colorScheme": "dark",
+    "tags": [
+      "dark-mode",
+      "editorial",
+      "warm-bone",
+      "ascii-art",
+      "bento-grid",
+      "glassmorphism",
+      "micro-interactions",
+      "audio-waveforms",
+      "svg-animations"
+    ]
+  },
+  "typography": {
+    "display": "Bricolage Grotesque Variable",
+    "serifWordmark": "Fraunces Variable",
+    "sans": "Geist Variable",
+    "mono": "Geist Mono Variable"
+  },
+  "palette": {
+    "backgroundPrimary": "#0b0b0b",
+    "backgroundCard": "#0c0c0c",
+    "backgroundElevated": "#121212",
+    "textPrimary": "#f4ede0",
+    "textSecondary": "#a9a49b",
+    "textMuted": "#858079",
+    "accents": {
+      "peach": "#f7ae73",
+      "rose": "#f47fa3",
+      "blush": "#ffd0db",
+      "gold": "#f5c26b",
+      "sageMint": "#a9c8a0",
+      "liveGreen": "#7be0a0",
+      "slateBlue": "#8fa8c9"
+    }
+  },
+  "specialEffectsCaptured": [
+    {
+      "name": "Interactive ASCII Wave Canvas Backdrop",
+      "component": "portable-kit/components/AsciiBackdrop.tsx",
+      "type": "canvas-2d"
+    },
+    {
+      "name": "SMIL Morphing Voice Wave Logo & Pulsing Star",
+      "component": "portable-kit/components/AnimatedLogo.tsx",
+      "type": "svg-smil"
+    },
+    {
+      "name": "Brand Suffix (.sh / .hub) Spring Pop on Hover",
+      "selector": ".vs-brand-tld",
+      "type": "css-keyframes"
+    },
+    {
+      "name": "Pointer-Tracking Radial Spotlight, 3D Perspective Tilt & Parallax Watermark",
+      "component": "portable-kit/components/cardSpotlight.ts",
+      "type": "pointer-css-vars"
+    },
+    {
+      "name": "Multi-Color Conic-Gradient Sweep with Blur Glow",
+      "selector": ".vs-conic-sweep",
+      "type": "css-houdini-property"
+    },
+    {
+      "name": "Bento Deck Animated Workflow SVG Scenes",
+      "component": "portable-kit/components/WorkflowArt.tsx",
+      "type": "svg-css-choreography"
+    },
+    {
+      "name": "Radial Voiceprint Avatar & Dual-Layer Clip-Path Waveform",
+      "component": "portable-kit/components/VoiceWaveform.tsx",
+      "type": "svg-css-clip-path"
+    },
+    {
+      "name": "Monumental Glass Pedestal & Metallic Fraunces Wordmark Footer",
+      "selector": "footer",
+      "type": "editorial-layout"
+    }
+  ],
+  "paths": {
+    "guide": "GUIA-REPRODUCAO-DESIGN.md",
+    "metadata": "METADATA.md",
+    "portableCss": "portable-kit/voicestudio-complete.css",
+    "portableComponents": "portable-kit/components/",
+    "dembrandtOutput": "dembrandt-output/",
+    "sourceAssets": "source-assets/",
+    "previews": "previews/"
+  }
+}

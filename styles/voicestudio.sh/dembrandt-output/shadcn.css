@@ -1,0 +1,32 @@
+/* shadcn/ui theme, measured from https://voicestudio.sh/.
+ * Written by dembrandt 0.39.2.
+ * 8 of 18 slots were observed on the page.
+ * Not observed, so left to shadcn defaults: popover, popover-foreground, primary-foreground, secondary, secondary-foreground, muted, muted-foreground, accent, accent-foreground, destructive.
+ */
+
+:root {
+  --background: oklch(14.9577% 0 0);
+  --foreground: oklch(0% 0 0);
+  --card: oklch(14.4788% 0 0);
+  --card-foreground: oklch(100% 0 0);
+  --primary: oklch(95.8531% 0.00984 87.471);
+  --border: oklch(94.8042% 0.01885 83.064 / 0.08);
+  --input: rgba(255, 255, 255, 0.1);
+  --ring: rgba(255, 255, 255, 0.07);
+  --radius: 12.8px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: max(0px, calc(var(--radius) - 4px));
+  --radius-md: max(0px, calc(var(--radius) - 2px));
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
