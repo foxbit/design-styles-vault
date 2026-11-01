@@ -1,0 +1,60 @@
+{
+  "id": "artor.app",
+  "siteName": "Artor",
+  "sourceUrl": "https://artor.app/",
+  "capturedAt": "2026-11-01T15:00:00-03:00",
+  "tools": ["playwright-chromium (custom capture script)", "curl asset extraction"],
+  "dembrandt": { "ran": false, "reason": "npx execution blocked by agent policy during capture" },
+  "aesthetic": {
+    "summary": "Warm Paper SaaS",
+    "colorScheme": "light",
+    "supportsDark": true,
+    "themeSwitch": "next-themes, class light|dark on <html>, storage key 'theme'",
+    "tags": ["light-mode", "warm-neutral", "single-accent", "layered-shadows", "glassmorphism", "grain", "shadcn", "app-shell"]
+  },
+  "typography": {
+    "sans": "Geist Variable",
+    "mono": "Geist Mono Variable",
+    "license": "SIL Open Font License 1.1",
+    "scale": {
+      "h1": "500 64px/1.08 -0.045em",
+      "h2": "500 48px/1.02 -0.04em",
+      "h3": "550 20px/1.3 -0.025em",
+      "ui": "500 13.5px/1.5 -0.01em",
+      "body": "400 16px/1.5"
+    }
+  },
+  "palette": {
+    "light": {
+      "bg": "#f4f3ef", "bgMarketing": "#f7f6f2", "ink": "#1a1a18", "muted": "#726f65", "mutedInk": "#84817a",
+      "accent": "#e97a00", "accentText": "#9c5000", "buttonPrimaryInk": "#1a1a18",
+      "panel": "#fbfbf9", "float": "#ffffff", "hair": "#14120c1a",
+      "s1": "#eceae3", "s2": "#e3e7e6", "s3": "#efe9e2", "s4": "#e6e3ec", "peach": "#ffd9b3",
+      "destructive": "#e40014", "success": "#15803d", "warning": "#b45309"
+    },
+    "dark": {
+      "bg": "#18181b", "ink": "#f2f1ee", "muted": "#8c8a85", "accent": "#f59331",
+      "panel": "#141416", "float": "#0b0b0c", "popover": "#1f1f23", "hair": "#ffffff1a",
+      "s1": "#222019", "s2": "#1b2120", "s3": "#241f1a", "s4": "#201d26",
+      "destructive": "#ff6568", "success": "#4ade80", "warning": "#fbbf24"
+    },
+    "charts": ["#e97a00", "#5b8c7a", "#6b7fa8", "#c9a14a", "#9a6b8c"]
+  },
+  "radius": { "base": "0.625rem", "card": "14px", "pill": "999px" },
+  "effects": [
+    "layered shadows with inner hairline (--sh-*)",
+    "glass nav pill and orange glass CTA (backdrop-filter)",
+    "feTurbulence grain overlay (--grain)",
+    "hero-frame-rise / nav-menu-in / thumb-pan keyframes"
+  ],
+  "notFound": ["canvas/webgl", "svg smil", "pointer-driven css variables", "conic/houdini borders"],
+  "files": {
+    "metadata": "METADATA.md",
+    "guide": "GUIA-REPRODUCAO-DESIGN.md",
+    "portableCss": "portable-kit/artor-complete.css",
+    "tailwindV4Theme": "dembrandt-output/theme.css",
+    "shadcn": "dembrandt-output/shadcn.css",
+    "screenshots": ["dembrandt-output/screenshot-desktop.png", "dembrandt-output/screenshot-fullpage.png", "dembrandt-output/screenshot-app-demo.png"]
+  },
+  "appliedIn": ["foxbit/design-hub (Tailwind v3 + shadcn, HSL tokens in src/index.css)"]
+}
